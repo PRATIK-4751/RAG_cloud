@@ -1,0 +1,16 @@
+# secrets: never commit
+.env
+*.pem
+
+# runtime data
+chroma_db/
+ollama_data/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# misc
+.DS_Store
